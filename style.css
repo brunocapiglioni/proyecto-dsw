@@ -290,7 +290,7 @@ nav svg {
 
 #b1 {
   background-image: linear-gradient(
-      rgba(240, 108, 198, 0.2),
+      rgba(240, 108, 198, 0.1),
       rgba(240, 108, 198, 0.9)
     ),
     url(registrarse.png);
@@ -311,8 +311,8 @@ nav svg {
 
 #b3 {
   background-image: linear-gradient(
-      rgba(231, 13, 13, 0.2),
-      rgba(240, 13, 13, 0.9)
+      rgb(202, 49, 25, 0.2),
+      rgba(202, 49, 25, 0.9)
     ),
     url(materias.jpg);
   background-size: cover;
@@ -329,9 +329,22 @@ nav svg {
 }
 
 #b5 {
-  background-color: rgb(29, 145, 145);
+  background-image: linear-gradient(
+      rgb(29, 145, 145, 0.2),
+      rgba(29, 145, 145, 0.9)
+    ),
+    url(org.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #b6 {
-  background-color: rgba(8, 153, 32, 0.897);
+  background-image: linear-gradient(
+      rgb(29, 145, 145, 0.2),
+      rgba(29, 145, 145, 0.9)
+    ),
+    url(ayuda.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
